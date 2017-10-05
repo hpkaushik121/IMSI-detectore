@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="tracking">Monitoramento</string>
+    <string name="device_info">Telefone/Detalhes do cartão SIM</string>
+    <string name="map_view">Mapa da antena do observador</string>
+    <string name="db_viewer">Banco de dados do observador</string>
+    <string name="quit">Encerrar</string>
+    <string name="text_ok">Aprovado</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_agree">Concordo</string>
+    <string name="text_disagree">Discordo</string>
+
+    <string name="disclaimer_title">Retratação</string>
+    <string name="disclaimer">"Ao utilizar AIMSICD você compreende e concorda que AIMSICD é uma aplicação Android, experimental e informativa, que pode falhar em rastrear e fiscalizar. Você também entende que pode ser contornadas ou derrotadas por outros meios, não ainda entendido pelos desenvolvedores. Assim, você também concorda que os desenvolvedores e companhias relacionadas a esse produto livre, pode de forma alguma ser responsabilizada por qualquer resultado, dependendo do uso dessa aplicação. "</string>
+
+    <string name="toggle_attack_detection">Detecção de ataques de alternância</string>
+    <string name="toggle_cell_tracking">Rastreamento de células de alternância</string>
+    <string name="clear_database">Limpar/Restabelecer banco de dados</string>
+    <string name="clear_database_question">Todos os dados serão eliminados.
+Você tem certeza?</string>
+    <string name="preferences">Preferências</string>
+    <string name="press_once_again_to_exit">Pressione novamente para sair.</string>
+    <string name="cell_lookup">Todos os detalhes da célula atual</string>
+    <string name="debugging">Depurar</string>
+    <string name="no_network_connection_title">Sem conexão à internet</string>
+    <string name="no_network_connection_message">Sem permissão para transferir dados do OpenCelllD sem conexão à internet, por favor habilite a conexão de dados!</string>
+
+    <string name="get_opencellid">Transferir dados BTS</string>
+
+    <string name="device_info_title">Informação de dispositivo</string>
+    <string name="sim_info_title">Informação do SIM</string>
+    <string name="network_info">Rede de informação</string>
+    <string name="cell_info_title">Nível de ameaça atual</string>
+    <string name="neighboring_cells_title">células vizinhas</string>
+    <string name="ciphering_indicator_title">Indicador de codificação</string>
+    <string name="neighboring_cells_num_title">Total:</string>
+    <string name="sim_country">País:</string>
+    <string name="sim_operator_id">ID do operador:</string>
+    <string name="sim_operator_name">Nome do operador:</string>
+    <string name="sim_imsi">IMSI:</string>
+    <string name="sim_serial">Série:</string>
+    <string name="device_type">Tipo de telefone:</string>
+    <string name="device_imei">IMEI:</string>
+    <string name="device_version">Versão do RIL:</string>
+    <string name="network_name">Nome do provedor:</string>
+    <string name="network_code">Código do provedor:</string>
+    <string name="network_type">Tipo:</string>
+    <string name="network_lac">LAC:</string>
+    <string name="network_cellid">CID:</string>
+    <string name="data_activity">Atividade de dados:</string>
+    <string name="data_status">Status de dado:</string>
+    <string name="network_roaming">Roaming:</string>
+    <string name="network_lte_timing_advance">TA (LTE):</string>
+    <string name="button_refresh">Atualização</string>
+    <string name="drawer_open">Gaveta de navegação aberta</string>
+    <string name="drawer_close">Gaveta de navegação fechada</string>
+    <string name="network_psc">PSC:</string>
+
+    <string name="upload_bts">Carregar dados BTS</string>
+
+    <string name="about_aimsicd">Sobre AIMSICD</string>
+    <string name="app_version">Versão: %s</string>
+    <string name="buildnumber">Número de compilação: %s</string>
+    <string name="git_sha">Git SHA-Hash: %S</string>
+    <string name="aimsicd_about_info3">Projeto baseado em Android para detectar e evitar estações de bases falsas (Coletores-IMSI) em redes GSM/UMTS.</string>
+    <string name="about_github">AIMSICD no GitHub</string>
+    <string name="about_wiki">Documentação</string>
+    <string name="about_contribute">Contribuir</string>
+    <string name="about_disclaimer">Retratação</string>
+    <string name="about_releases">Lançamentos</string>
+    <string name="about_changelog">Mudanças</string>
+    <string name="about_license">Licensa</string>
+    <string name="about_credits">Créditos</string>
+    <string name="status_idle_about_desc">Inativo / Carregando.</string>
+    <string name="status_high_about_desc">Rastreamento ativo próximo a você!</string>
+    <string name="status_ok_about_desc">Tudo OK.</string>
+    <string name="status_danger_about_desc">Você está sendo monitorado!</string>
+
+    <string name="unknown">Desconhecido</string>
+    <string name="pref_enable_gps_title">Configurações do GPS</string>
+    <string name="pref_system_title">Configurações do sistema</string>
+    <string name="pref_persistservice_title">Serviço de persistência</string>
+    <string name="pref_protection_title">Configurações de proteção</string>
+    <string name="pref_notification_settings">Configurações de notificações</string>
+    <string name="pref_ui_title">Configurações da interface</string>
+    <string name="pref_refresh_title">Taxa de atualização</string>
+    <string name="pref_map_title">Preferências de visualização do mapa</string>
+    <string name="pref_map_type_title">Tipo do mapa</string>
+    <string name="pref_map_type_summ">Mostrar mapas em estilos diferentes</string>
+    
+    <string name="table_names_prompt">Selecionar tabela</string>
+    <string name="response_label">Resposta:</string>
+    <string name="execute_at">Executar</string>
+    <string name="title_ocid_key">"chave da API da OpenCellID "</string>
+    <string name="btn_clear_logs">Limpar</string>
+    <string name="btn_copy_to_clipboard">Copiar</string>
+    <string name="msg_copied_to_clipboard">Logs copiados para a caixa de transferência.</string>
+    <string name="btn_stop_logs">Parar</string>
+    <string name="btn_start_logs">Iniciar</string>
+
+    <string name="title_activity_about_pop_up">EXPLICAÇÃO DETALHADA</string>
+    <string name="about_desc_icon_title">Presione o Ícone de Status abaixo para informações detalhadas:</string>
+
+    <string name="network_netid">ID da rede:</string>
+    <string name="network_sysid">ID do sistema:</string>
+    <string name="network_baseid">ID da estação base:</string>
+
+    <string name="location_error_title">Serviço de localização desabilitado</string>
+    <string name="pref_ui_icons_summ">Seleção do ícone do tema</string>
+    <string name="pref_ui_icons_title">Ícones de status</string>
+    <string name="pref_refresh_summ">Controle a frequência de atualização dos dispositivos
+Frequência atual: %s</string>
+    <string name="cell_id_label">"CID: "</string>
+    <string name="lac_label">"LAC: "</string>
+    <string name="mcc_label">"MCC: "</string>
+    <string name="mnc_label">"MNC: "</string>
+    <string name="pc_label">"PC: "</string>
+    <string name="samples_label">"Exemplos: "</string>
+    <string name="lat_label">"Latitude: "</string>
+    <string name="lng_label">"Longitude: "</string>
+
+    <string name="serial_device_spinner_title">Detectar dispositivos:</string>
+    <string name="timeout_spinner_title">Timeout:</string>
+    <string name="timeout_spinner_prompt">Selecionar Timeout</string>
+    <string name="ocid_api_success">Nova API key foi salva.</string>
+
+    <string name="title_debug_logs">Logs de depuração</string>
+    <string name="open_cell_id_button_cancel">Cancelar</string>
+    <string name="open_cell_id_button_ok">OK</string>
+
+    <string name="pref_notification_vibrate_enable_title">Habilitar vibração</string>
+    <string name="pref_notification_vibrate_enable_summary">Vibrar quando notificações forem alteradas</string>
+    <string name="notification_vibrate_idle">Idle</string>
+    <string name="notification_vibrate_ok">OK</string>
+    <string name="notification_vibrate_medium">Médio</string>
+    <string name="notification_vibrate_danger">Perigo</string>
+    
+    <string name="map_type_normal">Normal</string>
+    <string name="pref_refresh_manual">Manual</string>
+    <string name="pref_refresh_automatic">Automático</string>
+    <string name="pref_refresh_2s">2 segundos</string>
+    <string name="pref_refresh_5s">5 segundos</string>
+    <string name="pref_refresh_10s">10 segundos</string>
+    <string name="pref_refresh_25s">25 segundos</string>
+    <string name="pref_refresh_45s">45 segundos</string>
+    <string name="pref_refresh_1_min">1 minuto</string>
+    <string name="pref_refresh_5_min">5 minutos</string>
+    <string name="timeout_spinner_2_sec">2 segundos</string>
+    <string name="timeout_spinner_5_sec">5 segundos</string>
+    <string name="timeout_spinner_10_sec">10 segundos</string>
+    <string name="timeout_spinner_20_sec">20 segundos</string>
+    <string name="timeout_spinner_30_sec">30 segundos</string>
+    <string name="timeout_spinner_10_min">10 minutos</string>
+    <string name="main">Principal</string>
+    <string name="settings">Configurações</string>
+    <string name="database_settings">Banco de dados</string>
+    <string name="application">Aplicação</string>
+    </resources>
